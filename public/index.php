@@ -4,7 +4,6 @@ use Illuminate\Http\Request;
 
 define('LARAVEL_START', microtime(true));
 
-
 /*
 |--------------------------------------------------------------------------
 | Check If The Application Is Under Maintenance
@@ -19,7 +18,6 @@ define('LARAVEL_START', microtime(true));
 if (file_exists(__DIR__.'/../storage/framework/maintenance.php')) {
     require __DIR__.'/../storage/framework/maintenance.php';
 }
-
 
 /*
 |--------------------------------------------------------------------------
