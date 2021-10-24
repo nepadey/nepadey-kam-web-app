@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class Frontend extends Controller
+{
+  public function home()
+  {
+      return view('frontend.home');
+  }
+  public function jobsearchpage()
+  {
+      return view('frontend.jobsearchpage');
+  }
+}
