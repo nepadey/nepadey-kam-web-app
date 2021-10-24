@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Frontend;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -18,10 +19,12 @@ Route::get('/', function () {
     return view('frontend.home');
 });
 
-// Auth::routes();
+Route::get('/jobsearch', [Frontend::class, 'jobsearchpage']);
+Route::get('/homepage', [Frontend::class, 'home']);
+Auth::routes();
 
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-// Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
-// })->name('dashboard');
+})->name('dashboard');
