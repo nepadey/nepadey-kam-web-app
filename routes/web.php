@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\Frontend;
+use App\Http\Controllers\FrontendController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -19,8 +19,9 @@ Route::get('/', function () {
     return view('frontend.home');
 });
 
-Route::get('/jobsearch', [Frontend::class, 'jobsearchpage']);
-Route::get('/homepage', [Frontend::class, 'home']);
+Route::get('/home-page',[FrontendController::class, 'home'])->name('home-page');
+Route::get('/job-search-page',[FrontendController::class, 'jobsearchpage'])->name('job-search-page');
+Route::get('/task-listing-page',[FrontendController::class, 'tasklistingpage'])->name('task-listing-page');
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
