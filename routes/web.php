@@ -23,6 +23,7 @@ Route::get('/home-page',[FrontendController::class, 'home'])->name('home-page');
 Route::get('/job-search-page',[FrontendController::class, 'jobsearchpage'])->name('job-search-page');
 Route::get('/task-listing-page',[FrontendController::class, 'tasklistingpage'])->name('task-listing-page');
 Route::get('/job-page',[FrontendController::class, 'jobpage'])->name('job-page');
+Route::get('/blog-page',[FrontendController::class, 'blogpage'])->name('blog-page');
 Route::get('/contact-page',[FrontendController::class, 'contactpage'])->name('contact-page');
 Route::get('/single-task-page',[FrontendController::class, 'singletaskpage'])->name('single-task-page');
 Auth::routes();

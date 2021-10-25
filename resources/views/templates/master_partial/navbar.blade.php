@@ -96,7 +96,7 @@
 										<li><a href="jobs-list-layout-1-OpenStreetMap.html">Location Autocomplete</a></li>
 									</ul>
 								</li>
-								<li><a href="pages-blog.html">Blog</a></li>
+								<li><a href="{{route("blog-page")}}">Blog</a></li>
 								<li><a href="pages-pricing-plans.html">Pricing Plans</a></li>
 								<li><a href="pages-checkout-page.html">Checkout Page</a></li>
 								<li><a href="pages-invoice-template.html">Invoice Template</a></li>
