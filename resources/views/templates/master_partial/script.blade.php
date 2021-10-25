@@ -1,7 +1,7 @@
 <!-- Scripts
 ================================================== -->
-<script src="/assets/js/jquery-3.4.1.min.js"></script>
-<script src="/assets/js/jquery-migrate-3.1.0.min.js"></script>
+<script src="/assets/js/jquery-3.3.1.min.js"></script>
+<script src="/assets/js/jquery-migrate-3.3.1.min.js"></script>
 <script src="/assets/js/mmenu.min.js"></script>
 <script src="/assets/js/tippy.all.min.js"></script>
 <script src="/assets/js/simplebar.min.js"></script>
