@@ -26,4 +26,8 @@ class FrontendController extends Controller
   {
       return view('frontend.singletaskpage');
   }
+  public function contactpage()
+  {
+      return view('frontend.contactpage');
+  }
 }

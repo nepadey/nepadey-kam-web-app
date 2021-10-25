@@ -104,7 +104,7 @@
 								<li><a href="pages-icons-cheatsheet.html">Icons Cheatsheet</a></li>
 								<li><a href="pages-login.html">Login & Register</a></li>
 								<li><a href="pages-404.html">404 Page</a></li>
-								<li><a href="pages-contact.html">Contact</a></li>
+								<li><a href="{{route("contact-page")}}">Contact</a></li>
 							</ul>
 						</li>
 					</ul>
