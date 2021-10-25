@@ -30,4 +30,8 @@ class FrontendController extends Controller
   {
       return view('frontend.contactpage');
   }
+  public function loginpage()
+  {
+      return view('frontend.loginpage');
+  }
 }
