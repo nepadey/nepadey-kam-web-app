@@ -103,7 +103,7 @@
 								<li><a href="pages-user-interface-elements.html">User Interface Elements</a></li>
 								<li><a href="pages-icons-cheatsheet.html">Icons Cheatsheet</a></li>
 								<li><a href="{{route("login-page")}}">Login & Register</a></li>
-								<li><a href="pages-404.html">404 Page</a></li>
+								<li><a href="{{route("error-page")}}">404 Page</a></li>
 								<li><a href="{{route("contact-page")}}">Contact</a></li>
 							</ul>
 						</li>
