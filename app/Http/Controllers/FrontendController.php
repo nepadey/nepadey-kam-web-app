@@ -22,4 +22,8 @@ class FrontendController extends Controller
   {
       return view('frontend.jobpage');
   }
+  public function singletaskpage()
+  {
+      return view('frontend.singletaskpage');
+  }
 }

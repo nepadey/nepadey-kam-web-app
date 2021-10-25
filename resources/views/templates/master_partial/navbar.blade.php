@@ -6,7 +6,7 @@
 			<div class="left-side">
 				<!-- Logo -->
 				<div id="logo">
-					<a href="index.html"><img src="images/logo.png" alt=""></a>
+					<a href="index.html"><img src="/assets/images/logo.png" alt=""></a>
 				</div>
 				<!-- Main Navigation -->
 				<nav id="navigation">
@@ -40,7 +40,7 @@
 								</li>
 								<li><a href="browse-companies.html">Browse Companies</a></li>
 								<li><a href="{{route("job-page")}}">Job Page</a></li>
-								<li><a href="single-task-page.html">Task Page</a></li>
+								<li><a href="{{route("single-task-page")}}">Task Page</a></li>
 								<li><a href="single-company-profile.html">Company Profile</a></li>
 							</ul>
 						</li>
@@ -194,7 +194,7 @@
 										<!-- Notification -->
 										<li class="notifications-not-read">
 											<a href="dashboard-messages.html">
-												<span class="notification-avatar status-online"><img src="images/user-avatar-small-03.jpg" alt=""></span>
+												<span class="notification-avatar status-online"><img src="/assets/images/user-avatar-small-03.jpg" alt=""></span>
 												<div class="notification-text">
 													<strong>David Peterson</strong>
 													<p class="notification-msg-text">Thanks for reaching out. I'm quite busy right now on many...</p>
@@ -205,7 +205,7 @@
 										<!-- Notification -->
 										<li class="notifications-not-read">
 											<a href="dashboard-messages.html">
-												<span class="notification-avatar status-offline"><img src="images/user-avatar-small-02.jpg" alt=""></span>
+												<span class="notification-avatar status-offline"><img src="/assets/images/user-avatar-small-02.jpg" alt=""></span>
 												<div class="notification-text">
 													<strong>Sindy Forest</strong>
 													<p class="notification-msg-text">Hi Tom! Hate to break it to you, but I'm actually on vacation until...</p>
@@ -216,7 +216,7 @@
 										<!-- Notification -->
 										<li class="notifications-not-read">
 											<a href="dashboard-messages.html">
-												<span class="notification-avatar status-online"><img src="images/user-avatar-placeholder.png" alt=""></span>
+												<span class="notification-avatar status-online"><img src="/assets/images/user-avatar-placeholder.png" alt=""></span>
 												<div class="notification-text">
 													<strong>Marcin Kowalski</strong>
 													<p class="notification-msg-text">I received payment. Thanks for cooperation!</p>
@@ -237,7 +237,7 @@
 					<!-- Messages -->
 					<div class="header-notifications user-menu">
 						<div class="header-notifications-trigger">
-							<a href="#"><div class="user-avatar status-online"><img src="images/user-avatar-small-01.jpg" alt=""></div></a>
+							<a href="#"><div class="user-avatar status-online"><img src="/assets/images/user-avatar-small-01.jpg" alt=""></div></a>
 						</div>
 						<!-- Dropdown -->
 						<div class="header-notifications-dropdown">
@@ -245,7 +245,7 @@
 							<div class="user-status">
 								<!-- User Name / Avatar -->
 								<div class="user-details">
-									<div class="user-avatar status-online"><img src="images/user-avatar-small-01.jpg" alt=""></div>
+									<div class="user-avatar status-online"><img src="/assets/images/user-avatar-small-01.jpg" alt=""></div>
 									<div class="user-name">
 										Tom Smith <span>Freelancer</span>
 									</div>
