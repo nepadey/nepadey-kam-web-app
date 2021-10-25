@@ -22,6 +22,7 @@ Route::get('/', function () {
 Route::get('/home-page',[FrontendController::class, 'home'])->name('home-page');
 Route::get('/job-search-page',[FrontendController::class, 'jobsearchpage'])->name('job-search-page');
 Route::get('/task-listing-page',[FrontendController::class, 'tasklistingpage'])->name('task-listing-page');
+Route::get('/job-page',[FrontendController::class, 'jobpage'])->name('job-page');
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -18,4 +18,8 @@ class FrontendController extends Controller
   {
       return view('frontend.tasklistingpage');
   }
+  public function jobpage()
+  {
+      return view('frontend.jobpage');
+  }
 }

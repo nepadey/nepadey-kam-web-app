@@ -39,7 +39,7 @@
 									</ul>
 								</li>
 								<li><a href="browse-companies.html">Browse Companies</a></li>
-								<li><a href="single-job-page.html">Job Page</a></li>
+								<li><a href="{{route("job-page")}}">Job Page</a></li>
 								<li><a href="single-task-page.html">Task Page</a></li>
 								<li><a href="single-company-profile.html">Company Profile</a></li>
 							</ul>
