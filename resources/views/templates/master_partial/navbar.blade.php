@@ -1,21 +1,16 @@
 <header id="header-container" class="fullwidth">
-
 	<!-- Header -->
 	<div id="header">
 		<div class="container">
-
 			<!-- Left Side Content -->
 			<div class="left-side">
-
 				<!-- Logo -->
 				<div id="logo">
 					<a href="index.html"><img src="images/logo.png" alt=""></a>
 				</div>
-
 				<!-- Main Navigation -->
 				<nav id="navigation">
 					<ul id="responsive">
-
 						<li><a href="#" class="current">Home</a>
 							<ul class="dropdown-nav">
 								<li><a href="index.html">Home 1</a></li>
@@ -23,7 +18,6 @@
 								<li><a href="index-3.html">Home 3</a></li>
 							</ul>
 						</li>
-
 						<li><a href="#">Find Work</a>
 							<ul class="dropdown-nav">
 								<li><a href="#">Browse Jobs</a>
@@ -31,14 +25,14 @@
 										<li><a href="jobs-list-layout-full-page-map.html">Full Page List + Map</a></li>
 										<li><a href="jobs-grid-layout-full-page-map.html">Full Page Grid + Map</a></li>
 										<li><a href="jobs-grid-layout-full-page.html">Full Page Grid</a></li>
-										<li><a href="jobs-list-layout-1.html">List Layout 1</a></li>
+										<li><a href="{{route("job-search-page")}}">Job List</a></li>
 										<li><a href="jobs-list-layout-2.html">List Layout 2</a></li>
 										<li><a href="jobs-grid-layout.html">Grid Layout</a></li>
 									</ul>
 								</li>
 								<li><a href="#">Browse Tasks</a>
 									<ul class="dropdown-nav">
-										<li><a href="tasks-list-layout-1.html">List Layout 1</a></li>
+										<li><a href="{{route("task-listing-page")}}">Task List</a></li>
 										<li><a href="tasks-list-layout-2.html">List Layout 2</a></li>
 										<li><a href="tasks-grid-layout.html">Grid Layout</a></li>
 										<li><a href="tasks-grid-layout-full-page.html">Full Page Grid</a></li>
@@ -50,7 +44,6 @@
 								<li><a href="single-company-profile.html">Company Profile</a></li>
 							</ul>
 						</li>
-
 						<li><a href="#">For Employers</a>
 							<ul class="dropdown-nav">
 								<li><a href="#">Find a Freelancer</a>
@@ -66,7 +59,6 @@
 								<li><a href="dashboard-post-a-task.html">Post a Task</a></li>
 							</ul>
 						</li>
-
 						<li><a href="#">Dashboard</a>
 							<ul class="dropdown-nav">
 								<li><a href="dashboard.html">Dashboard</a></li>
@@ -91,7 +83,6 @@
 								<li><a href="dashboard-settings.html">Settings</a></li>
 							</ul>
 						</li>
-
 						<li><a href="#">Pages</a>
 							<ul class="dropdown-nav">
 								<li>
@@ -116,40 +107,30 @@
 								<li><a href="pages-contact.html">Contact</a></li>
 							</ul>
 						</li>
-
 					</ul>
 				</nav>
 				<div class="clearfix"></div>
 				<!-- Main Navigation / End -->
-
 			</div>
 			<!-- Left Side Content / End -->
-
-
 			<!-- Right Side Content / End -->
 			<div class="right-side">
-
 				<!--  User Notifications -->
 				<div class="header-widget hide-on-mobile">
-
 					<!-- Notifications -->
 					<div class="header-notifications">
-
 						<!-- Trigger -->
 						<div class="header-notifications-trigger">
 							<a href="#"><i class="icon-feather-bell"></i><span>4</span></a>
 						</div>
-
 						<!-- Dropdown -->
 						<div class="header-notifications-dropdown">
-
 							<div class="header-notifications-headline">
 								<h4>Notifications</h4>
 								<button class="mark-as-read ripple-effect-dark" title="Mark all as read" data-tippy-placement="left">
 									<i class="icon-feather-check-square"></i>
 								</button>
 							</div>
-
 							<div class="header-notifications-content">
 								<div class="header-notifications-scroll" data-simplebar>
 									<ul>
@@ -162,7 +143,6 @@
 												</span>
 											</a>
 										</li>
-
 										<!-- Notification -->
 										<li>
 											<a href="dashboard-manage-bidders.html">
@@ -172,7 +152,6 @@
 												</span>
 											</a>
 										</li>
-
 										<!-- Notification -->
 										<li>
 											<a href="dashboard-manage-jobs.html">
@@ -182,7 +161,6 @@
 												</span>
 											</a>
 										</li>
-
 										<!-- Notification -->
 										<li>
 											<a href="dashboard-manage-candidates.html">
@@ -195,27 +173,21 @@
 									</ul>
 								</div>
 							</div>
-
 						</div>
-
 					</div>
-
 					<!-- Messages -->
 					<div class="header-notifications">
 						<div class="header-notifications-trigger">
 							<a href="#"><i class="icon-feather-mail"></i><span>3</span></a>
 						</div>
-
 						<!-- Dropdown -->
 						<div class="header-notifications-dropdown">
-
 							<div class="header-notifications-headline">
 								<h4>Messages</h4>
 								<button class="mark-as-read ripple-effect-dark" title="Mark all as read" data-tippy-placement="left">
 									<i class="icon-feather-check-square"></i>
 								</button>
 							</div>
-
 							<div class="header-notifications-content">
 								<div class="header-notifications-scroll" data-simplebar>
 									<ul>
@@ -230,7 +202,6 @@
 												</div>
 											</a>
 										</li>
-
 										<!-- Notification -->
 										<li class="notifications-not-read">
 											<a href="dashboard-messages.html">
@@ -242,7 +213,6 @@
 												</div>
 											</a>
 										</li>
-
 										<!-- Notification -->
 										<li class="notifications-not-read">
 											<a href="dashboard-messages.html">
@@ -257,29 +227,22 @@
 									</ul>
 								</div>
 							</div>
-
 							<a href="dashboard-messages.html" class="header-notifications-button ripple-effect button-sliding-icon">View All Messages<i class="icon-material-outline-arrow-right-alt"></i></a>
 						</div>
 					</div>
-
 				</div>
 				<!--  User Notifications / End -->
-
 				<!-- User Menu -->
 				<div class="header-widget">
-
 					<!-- Messages -->
 					<div class="header-notifications user-menu">
 						<div class="header-notifications-trigger">
 							<a href="#"><div class="user-avatar status-online"><img src="images/user-avatar-small-01.jpg" alt=""></div></a>
 						</div>
-
 						<!-- Dropdown -->
 						<div class="header-notifications-dropdown">
-
 							<!-- User Status -->
 							<div class="user-status">
-
 								<!-- User Name / Avatar -->
 								<div class="user-details">
 									<div class="user-avatar status-online"><img src="images/user-avatar-small-01.jpg" alt=""></div>
@@ -287,7 +250,6 @@
 										Tom Smith <span>Freelancer</span>
 									</div>
 								</div>
-
 								<!-- User Status Switcher -->
 								<div class="status-switch" id="snackbar-user-status">
 									<label class="user-online current-status">Online</label>
@@ -296,19 +258,15 @@
 									<span class="status-indicator" aria-hidden="true"></span>
 								</div>
 						</div>
-
 						<ul class="user-menu-small-nav">
 							<li><a href="dashboard.html"><i class="icon-material-outline-dashboard"></i> Dashboard</a></li>
 							<li><a href="dashboard-settings.html"><i class="icon-material-outline-settings"></i> Settings</a></li>
 							<li><a href="index-logged-out.html"><i class="icon-material-outline-power-settings-new"></i> Logout</a></li>
 						</ul>
-
 						</div>
 					</div>
-
 				</div>
 				<!-- User Menu / End -->
-
 				<!-- Mobile Navigation Button -->
 				<span class="mmenu-trigger">
 					<button class="hamburger hamburger--collapse" type="button">
@@ -317,12 +275,9 @@
 						</span>
 					</button>
 				</span>
-
 			</div>
 			<!-- Right Side Content / End -->
-
 		</div>
 	</div>
 	<!-- Header / End -->
-
 </header>

@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class Frontend extends Controller
+class FrontendController extends Controller
 {
   public function home()
   {
@@ -13,5 +13,9 @@ class Frontend extends Controller
   public function jobsearchpage()
   {
       return view('frontend.jobsearchpage');
+  }
+  public function tasklistingpage()
+  {
+      return view('frontend.tasklistingpage');
   }
 }
