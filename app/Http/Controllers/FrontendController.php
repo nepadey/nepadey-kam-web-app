@@ -38,6 +38,10 @@ class FrontendController extends Controller
   {
       return view('frontend.loginpage');
   }
+  public function registerpage()
+  {
+      return view('frontend.registerpage');
+  }
   public function errorpage()
   {
       return view('frontend.errorpage');

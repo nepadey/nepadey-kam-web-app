@@ -281,3 +281,5 @@
 	</div>
 	<!-- Header / End -->
 </header>
+<div class="clearfix"></div>
+<!-- Header Container / End -->
