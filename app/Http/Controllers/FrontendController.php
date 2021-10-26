@@ -33,6 +33,7 @@ class FrontendController extends Controller
   public function blogpage()
   {
       return view('frontend.blogpage');
+  }
   public function loginpage()
   {
       return view('frontend.loginpage');
