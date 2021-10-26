@@ -13,7 +13,7 @@
 					<ul id="responsive">
 						<li><a href="#" class="current">Home</a>
 							<ul class="dropdown-nav">
-								<li><a href="index.html">Home 1</a></li>
+								<li><a href="{{route("home-page")}}">Home </a></li>
 								<li><a href="index-2.html">Home 2</a></li>
 								<li><a href="index-3.html">Home 3</a></li>
 							</ul>
@@ -80,7 +80,7 @@
 										<li><a href="dashboard-post-a-task.html">Post a Task</a></li>
 									</ul>
 								</li>
-								<li><a href="dashboard-settings.html">Settings</a></li>
+								<li><a href="{{route("user-profile-page")}}">Settings</a></li>
 							</ul>
 						</li>
 						<li><a href="#">Pages</a>
@@ -102,8 +102,8 @@
 								<li><a href="pages-invoice-template.html">Invoice Template</a></li>
 								<li><a href="pages-user-interface-elements.html">User Interface Elements</a></li>
 								<li><a href="pages-icons-cheatsheet.html">Icons Cheatsheet</a></li>
-								<li><a href="pages-login.html">Login & Register</a></li>
-								<li><a href="pages-404.html">404 Page</a></li>
+								<li><a href="{{route("login-page")}}">Login & Register</a></li>
+								<li><a href="{{route("error-page")}}">404 Page</a></li>
 								<li><a href="{{route("contact-page")}}">Contact</a></li>
 							</ul>
 						</li>
