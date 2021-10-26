@@ -16,7 +16,7 @@
 					<ul id="responsive">
 						<li><a href="#">Home</a>
 							<ul class="dropdown-nav">
-								<li><a href="index.html">Home 1</a></li>
+                <li><a href="{{route("home-page")}}">Home </a></li>
 								<li><a href="index-2.html">Home 2</a></li>
 								<li><a href="index-3.html">Home 3</a></li>
 							</ul>
@@ -28,22 +28,22 @@
 										<li><a href="jobs-list-layout-full-page-map.html">Full Page List + Map</a></li>
 										<li><a href="jobs-grid-layout-full-page-map.html">Full Page Grid + Map</a></li>
 										<li><a href="jobs-grid-layout-full-page.html">Full Page Grid</a></li>
-										<li><a href="jobs-list-layout-1.html">List Layout 1</a></li>
+										<li><a href="{{route("job-search-page")}}">Job List</a></li>
 										<li><a href="jobs-list-layout-2.html">List Layout 2</a></li>
 										<li><a href="jobs-grid-layout.html">Grid Layout</a></li>
 									</ul>
 								</li>
 								<li><a href="#">Browse Tasks</a>
 									<ul class="dropdown-nav">
-										<li><a href="tasks-list-layout-1.html">List Layout 1</a></li>
+                    <li><a href="{{route("task-listing-page")}}">Task List</a></li>
 										<li><a href="tasks-list-layout-2.html">List Layout 2</a></li>
 										<li><a href="tasks-grid-layout.html">Grid Layout</a></li>
 										<li><a href="tasks-grid-layout-full-page.html">Full Page Grid</a></li>
 									</ul>
 								</li>
 								<li><a href="browse-companies.html">Browse Companies</a></li>
-								<li><a href="single-job-page.html">Job Page</a></li>
-								<li><a href="single-task-page.html">Task Page</a></li>
+								<li><a href="{{route("job-page")}}">Job Page</a></li>
+								<li><a href="{{route("single-task-page")}}">Task Page</a></li>
 								<li><a href="single-company-profile.html">Company Profile</a></li>
 							</ul>
 						</li>
@@ -85,7 +85,7 @@
 										<li><a href="dashboard-post-a-task.html">Post a Task</a></li>
 									</ul>
 								</li>
-								<li><a href="dashboard-settings.html">Settings</a></li>
+                <li><a href="{{route("user-profile-page")}}">Settings</a></li>
 							</ul>
 						</li>
 
@@ -102,15 +102,16 @@
 										<li><a href="jobs-list-layout-1-OpenStreetMap.html">Location Autocomplete</a></li>
 									</ul>
 								</li>
-								<li><a href="pages-blog.html">Blog</a></li>
+								<li><a href="{{route("blog-page")}}">Blog</a></li>
 								<li><a href="pages-pricing-plans.html">Pricing Plans</a></li>
 								<li><a href="pages-checkout-page.html">Checkout Page</a></li>
 								<li><a href="pages-invoice-template.html">Invoice Template</a></li>
 								<li><a href="pages-user-interface-elements.html">User Interface Elements</a></li>
 								<li><a href="pages-icons-cheatsheet.html">Icons Cheatsheet</a></li>
-								<li><a href="pages-login.html">Login & Register</a></li>
-								<li><a href="pages-404.html">404 Page</a></li>
-								<li><a href="pages-contact.html">Contact</a></li>
+                <li><a href="{{route("login-page")}}">Login & Register</a></li>
+								<li><a href="{{route("error-page")}}">404 Page</a></li>
+								<li><a href="{{route("contact-page")}}">Contact</a></li>
+							</ul>
 							</ul>
 						</li>
 
