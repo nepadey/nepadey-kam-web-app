@@ -38,7 +38,7 @@
 				<div class="blog-carousel">
 					<a href="pages-blog-post.html" class="blog-compact-item-container">
 						<div class="blog-compact-item">
-							<img src="images/blog-04a.jpg" alt="">
+							<img src="/assets/images/blog-04a.jpg" alt="">
 							<span class="blog-item-tag">Tips</span>
 							<div class="blog-compact-item-content">
 								<ul class="blog-post-tags">
@@ -51,7 +51,7 @@
 					</a>
 					<a href="pages-blog-post.html" class="blog-compact-item-container">
 						<div class="blog-compact-item">
-							<img src="images/blog-05a.jpg" alt="">
+							<img src="/assets/images/blog-05a.jpg" alt="">
 							<span class="blog-item-tag">Recruiting</span>
 							<div class="blog-compact-item-content">
 								<ul class="blog-post-tags">
@@ -64,7 +64,7 @@
 					</a>
 					<a href="pages-blog-post.html" class="blog-compact-item-container">
 						<div class="blog-compact-item">
-							<img src="images/blog-03a.jpg" alt="">
+							<img src="/assets/images/blog-03a.jpg" alt="">
 							<span class="blog-item-tag">Marketing</span>
 							<div class="blog-compact-item-content">
 								<ul class="blog-post-tags">
@@ -77,7 +77,7 @@
 					</a>
 					<a href="pages-blog-post.html" class="blog-compact-item-container">
 						<div class="blog-compact-item">
-							<img src="images/blog-06a.jpg" alt="">
+							<img src="/assets/images/blog-06a.jpg" alt="">
 							<span class="blog-item-tag">Recruiting</span>
 							<div class="blog-compact-item-content">
 								<ul class="blog-post-tags">
@@ -90,7 +90,7 @@
 					</a>
 					<a href="pages-blog-post.html" class="blog-compact-item-container">
 						<div class="blog-compact-item">
-							<img src="images/blog-07a.jpg" alt="">
+							<img src="/assets/images/blog-07a.jpg" alt="">
 							<span class="blog-item-tag">Recruiting</span>
 							<div class="blog-compact-item-content">
 								<ul class="blog-post-tags">
@@ -122,7 +122,7 @@
 					<div class="blog-post-thumbnail">
 						<div class="blog-post-thumbnail-inner">
 							<span class="blog-item-tag">Tips</span>
-							<img src="images/blog-01a.jpg" alt="">
+							<img src="/assets/images/blog-01a.jpg" alt="">
 						</div>
 					</div>
 					<!-- Blog Post Content -->
@@ -140,7 +140,7 @@
 					<div class="blog-post-thumbnail">
 						<div class="blog-post-thumbnail-inner">
 							<span class="blog-item-tag">Recruiting</span>
-							<img src="images/blog-02a.jpg" alt="">
+							<img src="/assets/images/blog-02a.jpg" alt="">
 						</div>
 					</div>
 					<!-- Blog Post Content -->
@@ -156,7 +156,7 @@
 					<div class="blog-post-thumbnail">
 						<div class="blog-post-thumbnail-inner">
 							<span class="blog-item-tag">Marketing</span>
-							<img src="images/blog-03a.jpg" alt="">
+							<img src="/assets/images/blog-03a.jpg" alt="">
 						</div>
 					</div>
 					<!-- Blog Post Content -->
@@ -172,7 +172,7 @@
 					<div class="blog-post-thumbnail">
 						<div class="blog-post-thumbnail-inner">
 							<span class="blog-item-tag">Tips</span>
-							<img src="images/blog-04a.jpg" alt="">
+							<img src="/assets/images/blog-04a.jpg" alt="">
 						</div>
 					</div>
 					<!-- Blog Post Content -->
@@ -217,7 +217,7 @@
 							<!-- Post #1 -->
 							<li>
 								<a href="pages-blog-post.html" class="widget-content active">
-									<img src="images/blog-02a.jpg" alt="">
+									<img src="/assets/images/blog-02a.jpg" alt="">
 									<div class="widget-text">
 										<h5>How to "Woo" a Recruiter and Land Your Dream Job</h5>
 										<span>29 June 2019</span>
@@ -227,7 +227,7 @@
 							<!-- Post #2 -->
 							<li>
 								<a href="pages-blog-post.html" class="widget-content">
-									<img src="images/blog-07a.jpg" alt="">
+									<img src="/assets/images/blog-07a.jpg" alt="">
 									<div class="widget-text">
 										<h5>What It Really Takes to Make $100k Before You Turn 30</h5>
 										<span>3 June 2019</span>
@@ -237,7 +237,7 @@
 							<!-- Post #3 -->
 							<li>
 								<a href="pages-blog-post.html" class="widget-content">
-									<img src="images/blog-04a.jpg" alt="">
+									<img src="/assets/images/blog-04a.jpg" alt="">
 									<div class="widget-text">
 										<h5>5 Myths That Prevent Job Seekers from Overcoming Failure</h5>
 										<span>5 June 2019</span>

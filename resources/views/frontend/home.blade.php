@@ -5,6 +5,7 @@
 </style>
 @endsection
 @section('body_section')
+<div class="clearfix"></div>
 <!-- Intro Banner
 ================================================== -->
 <!-- add class "disable-gradient" to enable consistent background overlay -->
