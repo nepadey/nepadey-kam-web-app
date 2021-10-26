@@ -25,6 +25,7 @@ Route::get('/task-listing-page',[FrontendController::class, 'tasklistingpage'])-
 Route::get('/job-page',[FrontendController::class, 'jobpage'])->name('job-page');
 Route::get('/blog-page',[FrontendController::class, 'blogpage'])->name('blog-page');
 Route::get('/login-page',[FrontendController::class, 'loginpage'])->name('login-page');
+Route::get('/register-page',[FrontendController::class, 'registerpage'])->name('register-page');
 Route::get('/error-page',[FrontendController::class, 'errorpage'])->name('error-page');
 Route::get('/user-profile-page',[FrontendController::class, 'userprofilepage'])->name('user-profile-page');
 Route::get('/contact-page',[FrontendController::class, 'contactpage'])->name('contact-page');
