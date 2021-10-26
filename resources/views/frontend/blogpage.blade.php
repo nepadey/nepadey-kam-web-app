@@ -65,6 +65,7 @@
 					<a href="pages-blog-post.html" class="blog-compact-item-container">
 						<div class="blog-compact-item">
 							<img src="/assets/images/blog-03a.jpg" alt="">
+							<img src="/assets/images/blog-03a.jpg" alt="">
 							<span class="blog-item-tag">Marketing</span>
 							<div class="blog-compact-item-content">
 								<ul class="blog-post-tags">
