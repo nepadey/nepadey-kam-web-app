@@ -41,4 +41,8 @@ class FrontendController extends Controller
   {
       return view('frontend.errorpage');
   }
+  public function userprofilepage()
+  {
+      return view('frontend.userprofilepage');
+  }
 }
