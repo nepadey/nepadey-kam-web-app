@@ -80,7 +80,7 @@
 										<li><a href="dashboard-post-a-task.html">Post a Task</a></li>
 									</ul>
 								</li>
-								<li><a href="dashboard-settings.html">Settings</a></li>
+								<li><a href="{{route("user-profile-page")}}">Settings</a></li>
 							</ul>
 						</li>
 						<li><a href="#">Pages</a>
