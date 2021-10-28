@@ -6,6 +6,7 @@
 </head>
 <body>
 @include("dashboard.master_partial.navbar")
+{{-- @include('dashboard.master_partial.dashboard_sidebar') --}}
 @yield("body_section")
 </body>
 {{-- @include("dashboard.master_partial.footer") --}}
