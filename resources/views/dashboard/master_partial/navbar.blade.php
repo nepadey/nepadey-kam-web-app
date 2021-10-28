@@ -74,7 +74,7 @@
 									<ul class="dropdown-nav">
 										<li><a href="dashboard-manage-jobs.html">Manage Jobs</a></li>
 										<li><a href="dashboard-manage-candidates.html">Manage Candidates</a></li>
-										<li><a href="dashboard-post-a-job.html">Post a Job</a></li>
+										<li><a href="{{route("job-post.create")}}">Post a Job</a></li>
 									</ul>
 								</li>
 								<li><a href="dashboard-manage-tasks.html">Tasks</a>
