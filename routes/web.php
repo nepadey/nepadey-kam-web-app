@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\JobController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -31,6 +32,9 @@ Route::get('/user-profile-page',[FrontendController::class, 'userprofilepage'])-
 Route::get('/contact-page',[FrontendController::class, 'contactpage'])->name('contact-page');
 Route::get('/single-task-page',[FrontendController::class, 'singletaskpage'])->name('single-task-page');
 Auth::routes();
+
+Route::resource('job-post', JobController::class);
+
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
