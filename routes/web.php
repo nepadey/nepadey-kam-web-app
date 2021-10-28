@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\JobController;
+use App\Http\Controllers\TaskController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -34,6 +35,7 @@ Route::get('/single-task-page',[FrontendController::class, 'singletaskpage'])->n
 Auth::routes();
 
 Route::resource('job-post', JobController::class);
+Route::resource('task-post', TaskController::class);
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

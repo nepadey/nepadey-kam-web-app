@@ -59,8 +59,8 @@
 									</ul>
 								</li>
 								<li><a href="single-freelancer-profile.html">Freelancer Profile</a></li>
-								<li><a href="dashboard-post-a-job.html">Post a Job</a></li>
-								<li><a href="dashboard-post-a-task.html">Post a Task</a></li>
+								<li><a href="{{route("job-post.create")}}">Post a Job</a></li>
+								<li><a href="{{route("task-post.create")}}">Post a Task</a></li>
 							</ul>
 						</li>
 
@@ -82,7 +82,7 @@
 										<li><a href="dashboard-manage-tasks.html">Manage Tasks</a></li>
 										<li><a href="dashboard-manage-bidders.html">Manage Bidders</a></li>
 										<li><a href="dashboard-my-active-bids.html">My Active Bids</a></li>
-										<li><a href="dashboard-post-a-task.html">Post a Task</a></li>
+										<li><a href="{{route("task-post.create")}}">Post a Task</a></li>
 									</ul>
 								</li>
                 <li><a href="{{route("user-profile-page")}}">Settings</a></li>
