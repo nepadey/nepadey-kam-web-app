@@ -3,6 +3,7 @@
 use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\JobController;
 use App\Http\Controllers\TaskController;
+use App\Models\Jobtype;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -18,7 +19,22 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('frontend.home');
+  $job_type= Jobtype::first();
+  // echo "<pre>";
+  // $jobs=
+// $job_type= Jobtype::first();
+// dd($job_type->jobs());
+$jobs=$job_type->jobs();
+  // foreach($job_type->jobs() as $key=>$value){
+    // echo $key;
+    // echo "<br/>";
+    // echo $key;
+    // echo "<br/>";
+  // }
+// print_r($job_type->jobs());
+// die;
+    // dd($job_type);
+    return view('frontend.home')->with(['jobs'=>$jobs,'job_type'=>$job_type]);
 });
 
 Route::get('/home-page',[FrontendController::class, 'home'])->name('home-page');
